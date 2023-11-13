@@ -1,0 +1,151 @@
+.header
+{
+    background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
+    text-decoration: wavy;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading
+{
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 5px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+  .button {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: solid antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #73f7fe; /* Darker background color on hover */
+    
+  }
+
+  /* Create a container for the boxes */
+.container {
+    display: flex; /* Use flexbox */
+  }
+  
+  /* Style for the boxes */
+  .box {
+    width: 50%; /* Each box takes up half of the container */
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  .heading {
+    position: relative;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 40px; /* Adjust as needed */
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-button:hover{
+  background-color: #73f7fe;;
+}
+
+.home-button-1
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+.done-by
+{
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(100, 16, 80);
+    color: antiquewhite;
+    border-radius: 6.5px;
+}
+
+
+.highlight
+{
+    background-color: #07456e;
+    border-radius: 5px;
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  overflow: auto;
+}
+
+.popup-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.close:hover {
+  color: red;
+}
+
+.section{
+  background-color: #3498db;
+  border-radius: 5px;
+  border: 5px solid;
+  border-color: #0b3857;
+  color: antiquewhite;
+  padding: 15px;
+}
+
+.img_property{
+  padding: 20px;
+  
+}
