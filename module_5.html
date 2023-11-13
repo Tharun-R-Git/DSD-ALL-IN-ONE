@@ -14,30 +14,25 @@
 </div>
 <div class="container">
 <div class="section">
-        <h3>HALF ADDER</h3>
-        <p>A half adder is a digital logic circuit that performs binary addition of two single-bit binary numbers. It has two inputs, A and B, and two outputs, SUM and CARRY. The SUM output is the least significant bit (LSB) of the result, while the CARRY output is the most significant bit (MSB) of the result, indicating whether there was a carry-over from the addition of the two inputs.</p>
+        <h3>SEQUENTIAL CIRCUITS</h3>
+        <p>The sequential circuit is a special type of circuit that has a series of inputs and outputs. The outputs of the sequential circuits depend on both the combination of present inputs and previous outputs. The previous output is treated as the present state. So, the sequential circuit contains the combinational circuit and its memory storage elements. A sequential circuit doesn't need to always contain a combinational circuit. So, the sequential circuit can contain only the memory element.</p>
+        <p>In synchronous sequential circuits, synchronization of the memory element's state is done by the clock signal. The output is stored in either flip-flops or latches(memory devices). The synchronization of the outputs is done with either only negative edges of the clock signal or only positive edges.</p>
+        <p>The clock signals are not used by the Asynchronous sequential circuits. The asynchronous circuit is operated through the pulses. So, the changes in the input can change the state of the circuit. The asynchronous circuits do not use clock pulses. The internal state is changed when the input variable is changed. The un-clocked flip-flops or time-delayed are the memory elements of asynchronous sequential circuits. The asynchronous sequential circuit is similar to the combinational circuits with feedback.</p>
+    
         <div class="section">        
-            <img class="img_property" src="HA_TT.png" width="300" height="200" alt="HALF ADDER TRUTH TABLE">
-            <img class="img_property" src="HA_CD.jpg" width="300" height="200" alt="HALF ADDER BASIC DIAGRAM">
-            <img class="img_property" src="HA_NAND.png" width="300" height="200" alt="HALF ADDER NAND">
-            <img class="img_property" src="HA_NOR.png" width="300" height="200" alt="HALF ADDER NOR">
-        </div>
-        <h3>HALF SUBTRACTOR</h3>
-        <p>A half subtractor is a digital logic circuit that performs binary subtraction of two single-bit binary numbers. It has two inputs, A and B, and two outputs, DIFFERENCE and BORROW. The DIFFERENCE output is the difference between the two input bits, while the BORROW output indicates whether borrowing was necessary during the subtraction.</p>
+            <img class="img_property" src="SEQ_CIR.png" width="300" height="200" alt="HALF ADDER TRUTH TABLE">
+         </div>
+        <h3>FLIP FLOP</h3>
+        <p>A circuit that has two stable states is treated as a flip flop. These stable states are used to store binary data that can be changed by applying varying inputs. The flip flops are the fundamental building blocks of the digital system. Flip flops and latches are examples of data storage elements. In the sequential logical circuit, the flip flop is the basic storage element. The latches and flip flops are the basic storage elements but different in working. </p>
+        <h3>SR FLIPFLOP</h3>
+        <p>The SR flip flop is a 1-bit memory bistable device having two inputs, i.e., SET and RESET. The SET input 'S' set the device or produce the output 1, and the RESET input 'R' reset the device or produce the output 0. The SET and RESET inputs are labeled as S and R, respectively.
+The SR flip flop stands for "Set-Reset" flip flop. The reset input is used to get back the flip flop to its original state from the current state with an output 'Q'. This output depends on the set and reset conditions, which is either at the logic level "0" or "1". </p>        
         <div class="section">        
-            <img class="img_property" src="HS_TT.png" width="300" height="200" >
-            <img class="img_property" src="HS_CD.png" width="300" height="200" >
-            <img class="img_property" src="HS_NAND.png" width="300" height="200" >
-            <img class="img_property" src="HS_NOR.png" width="300" height="200" >
-        </div>
-        <h3>FULL ADDER</h3>
-        <p>Full Adder is the adder that adds three inputs and produces two outputs. The first two inputs are A and B and the third input is an input carry as C-IN. The output carry is designated as C-OUT and the normal output is designated as S which is SUM. The C-OUT is also known as the majority 1's detector, whose output goes high when more than one input is high. </p>        
-        <div class="section">        
-            <img class="img_property" src="FA_TT.jpg" width="240" height="200" >
-            <img class="img_property" src="FA_CD.png" width="240" height="200" >
-            <img class="img_property" src="FA_NAND.png" width="240" height="200" >
-            <img class="img_property" src="FA_NOR.png" width="240" height="200" >
-            <img class="img_property" src="FA_HA.png" width="240" height="200" >
+            <img class="img_property" src="SR_BD.jpg" width="240" height="200" >
+            <img class="img_property" src="SR_CD.png" width="240" height="200" >
+            <img class="img_property" src="SR_TT.png" width="240" height="200" >
+            <img class="img_property" src="SR_CT.png" width="240" height="200" >
+            <img class="img_property" src="SR_ET.jpg" width="240" height="200" >
         </div>
         <h3>FULL SUBTRACTOR</h3>
         <p>A full subtractor is a combinational circuit that performs subtraction of two bits, one is minuend and other is subtrahend, taking into account borrow of the previous adjacent lower minuend bit. This circuit has three inputs and two outputs. The three inputs A, B and Bin, denote the minuend, subtrahend, and previous borrow, respectively. The two outputs, D and Bout represent the difference and output borrow, respectively.</p>
