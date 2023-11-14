@@ -93,7 +93,47 @@ The input M, i.e., the mode control input, is set to 1 to perform the parallel l
             <center><img class="img_property" src="BDST.png" width="800" height="300" > </center>
             <center><img class="img_property" src="UST.png" width="800" height="300" > </center>
         </div>
+    <h3>COUNTERS</h3>
+    <p>A special type of sequential circuit used to count the pulse is known as a counter, or a collection of flip flops where the clock signal is applied is known as counters.
 
+The counter is one of the widest applications of the flip flop. Based on the clock pulse, the output of the counter contains a predefined state. The number of the pulse can be counted using the output of the counter</p>
+<p>In the Asynchronous counter, the present counter's output passes to the input of the next counter. So, the counters are connected like a chain. The drawback of this system is that it creates the counting delay, and the propagation delay also occurs during the counting stage. The synchronous counter is designed to remove this drawback.
+
+In the synchronous counter, the same clock pulse is passed to the clock input of all the flip flops. The clock signals produced by all the flip flops are the same as each other.</p>
+<h3>RIPPLE COUNTER</h3>
+<p>Ripple counter is a special type of Asynchronous counter in which the clock pulse ripples through the circuit. The n-MOD ripple counter forms by combining n number of flip-flops. The n-MOD ripple counter can count 2n states, and then the counter resets to its initial value.</p>
+<p>The up-counter counts the states in ascending order.The down counter counts the states in descending order.The up and down counter is a special type of bi-directional counter which counts the states either in the forward direction or reverse direction. It also refers to a reversible counter.</p>
+        <div class="section">
+            <img class="img_property" src="RC.png" width="240" height="200" >
+            <img class="img_property" src="RC_TD.png" width="240" height="200" >
+            <img class="img_property" src="RC_TT.png" width="240" height="200" >
+            <img class="img_property" src="RC_JK.jpg" width="240" height="200" >
+        </div>
+<h3>RING COUNTER</h3>
+<p>A ring counter is a special type of application of the Serial IN Serial OUT Shift register. The only difference between the shift register and the ring counter is that the last flip flop outcome is taken as the output in the shift register. But in the ring counter, this outcome is passed to the first flip flop as an input. All of the remaining things in the ring counter are the same as the shift register.
+No. of states in Ring counter = No. of flip-flop used</p>
+     <div class="section">
+            <img class="img_property" src="RING_BD.png" width="300" height="200" >
+            <img class="img_property" src="RING_TD.png" width="300" height="200" >
+            <img class="img_property" src="RING_TT.png" width="300" height="200" >
+        </div>
+<h3>JOHNSON COUNTER</h3>
+<p>The Johnson counter is similar to the Ring counter. The only difference between the Johnson counter and the ring counter is that the outcome of the last flip flop is passed to the first flip flop as an input. But in Johnson counter, the inverted outcome Q' of the last flip flop is passed as an input. The remaining work of the Johnson counter is the same as a ring counter. The Johnson counter is also referred to as the Creeping counter.</p>
+<p>No. of states in Johnson counter = No. of flip-flop used  
+Number of used states=2n  
+Number of unused states=2n - 2*n  </p>
+         <div class="section">
+            <img class="img_property" src="JC_BD.png" width="300" height="200" >
+            <img class="img_property" src="JC_TD.png" width="300" height="200" >
+            <img class="img_property" src="JC_TT.png" width="300" height="200" >
+        </div>
+<h3>MOD-N COUNTER</h3>
+<p>A Modulus-M Counter is a counter in which M represents the number of states present. M = 2n(2 raised to power n), where ‘n’ is the number of flip-flops required to design the modulus-M counter.
+The modulus-6 counter, for example, has six states. The value of n, in this case, is 3. That means the module-6 counter requires three flip-flops to be designed.</p>
+         <div class="section">
+            <img class="img_property" src="MOD_BD.png" width="300" height="200" >
+            <img class="img_property" src="MOD_TD.png" width="300" height="200" >
+        </div>
 </div>
   </div>
   <div class="done-by">
